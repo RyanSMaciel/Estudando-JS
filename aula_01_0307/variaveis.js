@@ -36,6 +36,3 @@ console.log(PI);
 
 // PI = 14      //GERA UM ERRO, POIS CONSTANTES NÃO PODEM SER ALTERADAS
 //console.log(PI)
-
-// Tipagem Estática -> Definição de um tipo a cada variável (java, C, C++, TypeScript)
-// Tipagem Dinâmica -> O tipo da variável é definido de acordo com seu valor (JavaScript, Python)
