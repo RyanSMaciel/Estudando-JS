@@ -6,18 +6,18 @@
 //     console.log(n1)
 // }
 
-let n = 0
-while(n < 17){
-    console.log(n)
-    n++;
-}
+// let n = 0
+// while(n < 17){
+//     console.log(n)
+//     n++;
+// }
 
 // for -> Uma quantidade X de vezes
 // while -> quantidade indeterminada de vezes
 
 let num = 80;
 let primo = false;
-for(){
+for(let i = 2; i < num; i++){
 
 }
 
