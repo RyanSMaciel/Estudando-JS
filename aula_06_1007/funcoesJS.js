@@ -39,8 +39,8 @@ console.log(texto.trim());
 console.log(texto.replace(" ", ""));
 
 texto = texto.replaceAll(" ", "");
-
 console.log(texto);
+
 console.log(texto.includes("bata"));
 console.log(texto.toLowerCase());
 console.log(texto.toUpperCase());
