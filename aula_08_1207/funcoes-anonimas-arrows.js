@@ -98,4 +98,17 @@ teste((numero) =>{
 // Quarta forma de executar "teste" (Função Arrow) - Modo 2
 teste(numero => (numero * 2));
 
-setInterval(() => console.log("Olá, Mundo"), 3000);
+// setInterval(() => console.log("Olá, Mundo"), 3000);
+
+//Recursividade -> Chamada de uma função pela mesma função
+
+function fatorial(params) {
+    switch (params){
+        case 1:
+            return 1
+    }
+        
+    return params * fatorial(params -1);
+}
+console.log(fatorial(4))
+// 4! = 4 * 3 * 2 * 1 =24
