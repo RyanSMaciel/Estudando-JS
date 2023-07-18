@@ -1,0 +1,5 @@
+img{
+    border-radius: 50%;
+    transition: 0.50ms;
+    border-style: groove;
+}

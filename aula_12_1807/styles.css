@@ -1,0 +1,20 @@
+.mensagem{
+    border: 2px solid rgb(61, 88, 240);
+    background-color: #9695d1;
+    color: #0059ff;
+    padding: 1%;
+}
+
+.erro{
+    border: 2px solid rgb(240, 61, 61);
+    background-color: #d19595;
+    color: #ff0000;
+    padding: 1%;
+}
+
+.atencao{
+    border: 2px solid rgb(240, 228, 61);
+    background-color: #757557;
+    color: #fffb00;
+    padding: 1%;
+}
