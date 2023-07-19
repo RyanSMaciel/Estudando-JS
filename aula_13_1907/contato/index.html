@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de COntato</title>
+    <style>
+        form {
+            width: 500px;
+        }
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        input:focus, textarea:focus{
+            outline: 0;
+            border-color: #767676;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <label for="mensag">Mensagem</label>
+            <textarea name="mensag" id="mensag" cols="30" rows="10"></textarea>
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
